@@ -7,7 +7,7 @@ var itensDB = []; //array
 
 btnDeleteAll.onclick = () => {
     itensDB = [];
-    update();
+    updateDB();
 };
 texto.addEventListener("keypress", (e) => {
     //arrow function
