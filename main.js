@@ -12,7 +12,7 @@ btnDeleteAll.onclick = () => {
 texto.addEventListener("keypress", (e) => {
     //arrow function
     if (e.key == "Enter" && texto.value != "") {
-        setItemDB(); //quem é ItemDB()?
+        setItemDB(); 
     }
 });
 
