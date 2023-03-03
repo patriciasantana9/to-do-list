@@ -8,7 +8,7 @@
 body {
     display: flex;
     justify-content: center;
-    background-color: rgb(250, 241, 157);
+    background-color: #f8f4f411;
     margin-top: 23px;
 }
 
@@ -45,7 +45,7 @@ ul {
 }
 .divInsert {
     padding: 10px;
-    background-color: rgb(236, 101, 101);
+    background-color: #A30500;
     border-radius: 10px;
     display: flex;
     box-shadow: 6px 5px 10px 0px gray;
@@ -68,7 +68,7 @@ button {
 .divLi {
     margin-top: 20px;
     padding: 10px;
-    background: rgb(236, 101, 101);
+    background: #f009014f;
     border-radius: 10px;
     box-shadow: 6px 5px 10px 0px rgb(168, 177, 158);
     display: flex;
@@ -76,7 +76,7 @@ button {
 }
 .divLi span {
     width: 80%;
-    color: rgb(255, 253, 253);
+    color: rgb(0, 0, 0);
 }
 .divLi input {
     width: 10%;
