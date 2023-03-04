@@ -3,10 +3,10 @@ const btnInsert = document.querySelector(".divInsert button");
 const btnDeleteAll = document.querySelector(".header button");
 const ul = document.querySelector("ul");
 
-var itensDB = []; //array
+var itensDB = []; //array onde ficarão os itens da lista
 
 btnDeleteAll.onclick = () => {
-    itensDB = [];
+    itensDB = [];          //limpar array
     updateDB();
 };
 texto.addEventListener("keypress", (e) => {
